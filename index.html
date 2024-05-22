@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/910ce80589.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Smilingzh</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="img/logo2.png">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="">主页</a></li>
+                    <li><a href="">作品</a></li>
+                    <li><a href="">联系</a></li>
+                </ul>
+            </div>
+            <div class="cart">
+                <h2>Smilingzh<span></span></h2>
+                <img src="img/touxiang.png">
+            </div>
+        </header>
+        <div class="socialIcon">
+            <a href=""><i class="fa-brands fa-qq qq"></i></a>
+            <a href=""><i class="fa-brands fa-weixin weixin"></i></a>
+            <a href="https://space.bilibili.com/412837935"><i class="fa-brands fa-bilibili bilibili"></i></a>
+        </div>
+        <p class="sideTitle">My personal portfolio</p>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide01">
+                    <div class="slideContent">
+                        <div class="slideInfo">
+                            <h2>书籍设计</h2>
+                            <h1>河南<br>豫剧</h1>
+                            <p style="text-indent: 2em">此书籍设计围绕中国第一大地方剧种---河南豫剧展开，本书主要介绍了豫剧的<br>
+                                历史渊源、文化特征、表演形式、音乐、舞美、服饰等方面的内容，帮助读者全面<br>
+                                了解豫剧的独特之处和深厚的文化内涵。通过本书，读者可以深入了解豫剧这一传<br>
+                                统艺术形式的发展历程、表演特色和文化内涵，感受其独特的魅力。</p>
+                            <div class="btn">
+                                <a href="">查看更多</a>
+                            </div>
+                        </div>
+                        <div class="imgContent">
+                            <img src="img/yuju.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slide02">
+                    <div class="slideContent">
+                        <div class="slideInfo">
+                            <h2>海报设计</h2>
+                            <h1>银鹭植物<br>系列海报</h1>
+                            <p>此系列海报是为银鹭植物ou椰椰汁设计的 <br>
+                                主要围绕椰汁0反式脂肪酸、0添加香精、0添加防腐剂等三个方面进行创作，采用年<br>
+                                轻人运动情景进行创意表现<br>
+                                此套海报设计获得了大学生广告艺术节2023秋季学院奖</p>
+                            <div class="btn">
+                                <a href="">查看更多</a>
+                            </div>
+                        </div>
+                        <div class="container1">
+                            <img style="transform: scale(.5);" src="img/haibao1.png">
+                            <img style="transform: scale(.5);" src="img/haibao2.png">
+                            <img style="transform: scale(.5);" src="img/haibao3.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide03">
+                    <div class="slideContent">
+                        <div class="slideInfo">
+                            <h2>日历设计</h2>
+                            <h1>兔年<br>日历</h1>
+                            <p>此日历设计为2023兔年主题，结合季节元素来进行创作，采用左右分割排版的方式<br>
+                                进行主版面设计,左边是月份，结合‘兔’字和月份数字进行融合创作<br><br>
+                            </p>
+                            <div class="btn">
+                                <a href="">查看更多</a>
+                            </div>
+                        </div>
+                        <div class="imgContent">
+                            <img src="img/rili.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide04">
+                    <div class="slideContent">
+                        <div class="slideInfo">
+                            <h2>包装设计</h2>
+                            <h1>高庙红薯<br>系列包装</h1>
+                            <p>高庙红薯包装设计一共有三种包装形式，主要针对高庙红薯的三个品种————黑金<br>
+                                蜜薯、黄金蜜薯以及紫罗兰蜜薯进行包装设计<br><br><br>
+                            </p>
+                            <div class="btn">
+                                <a href="">查看更多</a>
+                            </div>
+                        </div>
+                        <div class="imgContent">
+                            <img src="img/baozhuang.png">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="arrows">
+                <div class="swiper-button-next arrow"></div>
+                <div class="swiper-button-prev arrow"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper", {
+            direction: "vertical",
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+
+        let animation = anime({
+            targets: "header",
+            translateX: [180, 0],
+            opacity: [0, 1],
+            duration: 800,
+            easing: 'easeInOutSine',
+        });
+
+        anime({
+            targets: ".socialIcon",
+            opacity: [0, 1],
+            duration: 800,
+            easing: 'easeInOutSine',
+            delay: 300
+        });
+
+        anime({
+            targets: ".sideTitle",
+            opacity: [0, 1],
+            duration: 800,
+            easing: 'easeInOutSine',
+            delay: 300
+        });
+
+        anime({
+            targets: ".slideInfo h2",
+            translateY: [-50, 0],
+            opacity: [0, 1],
+            duration: 800,
+            easing: 'easeInOutSine',
+            delay: 500
+        });
+
+        anime({
+            targets: ".slideInfo h1",
+            scale: [1.2, 1],
+            opacity: [0, 1],
+            duration: 800,
+            easing: 'easeInOutSine',
+            delay: 500
+        });
+
+        anime({
+            targets: ".slideInfo p",
+            translateX: [100, 0],
+            opacity: [0, 1],
+            duration: 800,
+            easing: 'easeInOutSine',
+            delay: 500
+        });
+
+        anime({
+            targets: ".slideInfo .btn",
+            translateY: [60, 0],
+            opacity: [0, 1],
+            duration: 800,
+            easing: 'easeInOutSine',
+            delay: 500
+        });
+
+        anime({
+            targets: ".imgContent",
+            translateY: [100, 0],
+            opacity: [0, 1],
+            duration: 800,
+            easing: 'easeInOutSine',
+            delay: 800
+        });
+
+        anime({
+            targets: ".imgContent img",
+            translateY: [100, 0],
+            opacity: [0, 1],
+            duration: 800,
+            easing: 'easeInOutSine',
+            delay: 1000
+        });
+
+        swiper.on('slideChangeTransitionStart', function () {
+            anime({
+                targets: ".imgContent",
+                translateY: [180, 0],
+                opacity: [0, 1],
+                duration: 500,
+                easing: 'easeInOutSine',
+                delay: 300
+            });
+
+            anime({
+                targets: ".slideInfo",
+                translateX: [80, 0],
+                opacity: [0, 1],
+                duration: 500,
+                easing: 'easeInOutSine',
+                delay: 500
+            });
+
+        });
+        window.addEventListener('wheel', function (event) {
+            if (event.deltaY > 0) {
+                // 向下滚动，切换到下一个轮播图项目
+                swiper.slideNext();
+            } else if (event.deltaY < 0) {
+                // 向上滚动，切换到上一个轮播图项目
+                swiper.slidePrev();
+            }
+        });
+        /*创建提示，当元素被点击时生效*/
+        /*$(document).ready(function () {
+            $("i").click(function () {
+                alert("链接为空");
+            });
+        });*/
+    </script>
+</body>
+
+</html>
